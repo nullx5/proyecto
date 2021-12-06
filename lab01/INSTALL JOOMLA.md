@@ -10,9 +10,8 @@
 `sudo mysql_secure_installation` 
 
 Enter current password for root (enter for none): ENTER
-Set root password? [Y/n] N
-Setup VALIDATE PASSWORD plugin? [Y/N] N
-Change the root password? [Y/N] N
+Switch to unix_socket authentication [Y/n] N
+Change the root password? [Y/n] N
 Remove anonymous users? [Y/N] Y
 Disallow root login remotely? [Y/N] Y
 Remove test database and access to it? [Y/N] Y
@@ -78,5 +77,8 @@ http://192.168.33.9/joomla
 
 ### Dirección de correo electrónico. del súper administrador
 `admin@gmail.com`
+
+### No se pudo eliminar el directorio "installation". Elimínelo manualmente.
+`sudo rm -rf /var/www/html/joomla/installation`
 
 
