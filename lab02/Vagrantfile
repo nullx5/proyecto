@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.network "private_network", ip: "192.168.33.10"
 
-  # config.vm.network "public_network"
+  # config.vm.network "public_network", ip: "192.168.100.10"
 
   #Linux
   #config.vm.synced_folder "~/proyecto/lab02", "/home/vagrant/docker"
@@ -26,34 +26,23 @@ Vagrant.configure("2") do |config|
   end
 
   # Enable provisioning with a shell script. Additional provisioners such as
-  # Ansible, Chef, Docker, Puppet and Salt are also available. 
+  # Ansible, Chef, Docker, Puppet and Salt are also available.
   config.vm.provision "shell", inline: <<-SHELL
     sudo apt update
     sudo apt upgrade -y
-    sudo apt install neofetch tree -y
+    sudo apt install tree neofetch -y
   SHELL
 
   config.vm.provision :docker
-
-  #config.vm.provision "docker" do |d|
-  #  d.pull_images "wordpress"
-  # d.pull_images "mysql"
-  #end
   
-  #docker images
-  #docker ps
-  #docker run -d --name mysql-container -e MYSQL_ROOT_PASSWORD=my-mysql@123 mysql
-  #docker run -d --name wordpress-container --link mysql-container:mysql -p 80:80 wordpress
+  #docker pull mysql:8.0
+  #docker pull wordpress:5.8.2
+  
+  #docker run -d --name mysqlwp -e MYSQL_ROOT_PASSWORD=wordpresspwd -e MYSQL_DATABASE=wordpress_db -e MYSQL_USER=wordpress_user -e MYSQL_PASSWORD=wordpress123 mysql:8.0
+  #docker run -d --name wordpress --link mysqlwp:mysql -p 80:80 -e WORDPRESS_DB_NAME=wordpress_db -e WORDPRESS_DB_USER=wordpress_user -e WORDPRESS_DB_PASSWORD=wordpress123 wordpress:5.8.2
 
-
-  #docker run -d --name nginx-container -v /home/vagrant/docker:/usr/share/nginx/html -p 80:80 nginx:alpine
-  #docker ps
-  #docker images
-  #docker exec -it nginx-container bash
-  #docker stop nginx-container
-  #docker rm nginx-container
-  #docker ps
-  #docker rmi -f imagen-id
-  #docker build -t nombre-imagen .
+  #docker stop {ID-CONTAINER}
+  #docker rm {ID-CONTAINER}
+  #docker rmi -f {ID-IMAGEN}
 
 end
