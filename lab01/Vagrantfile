@@ -3,7 +3,7 @@ Vagrant.configure("2") do |config|
 
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "debian/bullseye64"
-  config.vm.hostname = "debian"
+  config.vm.hostname = "debian1"
 
   #config.vm.network "forwarded_port", guest: 80, host: 8080
 
@@ -12,14 +12,14 @@ Vagrant.configure("2") do |config|
   #config.vm.network "public_network", ip: "192.168.100.31"
 
   #Windows
-  config.vm.synced_folder "C:\\proyecto\\lab01", "/var/www/html/test"
+  config.vm.synced_folder ".", "/var/www/html/test"
 
   #Linux
-  #config.vm.synced_folder "~/proyecto/lab01", "/var/www/html/test"
+  #config.vm.synced_folder ".", "/var/www/html/test"
   
   config.vm.provider "virtualbox" do |vb|
 
-    vb.name = "VM-debian"  
+    vb.name = "VM-debian1"  
     vb.memory = "1024"
     vb.cpus = 2
 
@@ -28,17 +28,12 @@ Vagrant.configure("2") do |config|
   # Enable provisioning with a shell script. Additional provisioners such as
   # Ansible, Chef, Docker, Puppet and Salt are also available.
   config.vm.provision "shell", inline: <<-SHELL
-  #   Instalar Stack LAMP
+  # Instalar Stack LAMP
     sudo apt update
     sudo apt upgrade -y
-    sudo apt install apache2 -y 
-    sudo apt install mariadb-server -y
-    sudo apt install php7.4 libapache2-mod-php7.4 php-mysql php7.4-cli -y
-    sudo apt install tree neofetch p7zip-full unzip -y
+    sudo apt install apache2 mariadb-server php7.4 libapache2-mod-php7 php-mysql -y 
+    sudo apt install php7.4-cli tree neofetch p7zip-full unzip -y
+
   SHELL
 
-  #vagrant plugin install vagrant-share
-  #vagrant plugin list
-  #vagrant share --http 80
-  #vagrant share --ssh
 end
