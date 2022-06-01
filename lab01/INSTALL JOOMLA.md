@@ -53,7 +53,7 @@ sudo vi /etc/apache2/sites-available/joomla.conf
      CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 
-## HABILITAR VIRTUALHOST YHABILITAR MODULO REWRITE
+## HABILITAR VIRTUALHOST Y HABILITAR MODULO REWRITE
 sudo a2ensite joomla.conf
 sudo a2enmod rewrite
 
