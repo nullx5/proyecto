@@ -8,10 +8,10 @@
 >> - Simple Stack LAMP over `Vagrant`.
 
 > ### `Lab02`
->> - CMS Wordpress and Database Mysql over Network `Docker`.
+>> - CMS Wordpress and Database Mysql over Network `Vagrant & Docker`.
 
 > ### `Lab03`
->> - Django Web Framework and Database Postgresql over Network `docker-compose`.
+>> - Django Web Framework and Database Postgresql over Network `Vagrant & docker-compose`.
 
 > ### `Lab04`
->> - Aapanel powerful control-panel for linux server over `docker`.
+>> - Aapanel powerful control-panel for linux server over `Vagrant & docker`.
