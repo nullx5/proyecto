@@ -1,16 +1,16 @@
+#https://docs.docker.com/samples/django/
+
 version: "3.7"
    
 services:
   db:
-    image: postgres:13.5
-    restart: always
-    environment:
-          - POSTGRES_USER=postgres
-          - POSTGRES_PASSWORD=postgres
-    ports:
-          - '5432:5432'
+    image: postgres
     volumes:
-      - ./data/db:/var/lib/postgresql/data
+      - ./data/db:/home/vagrant/docker
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
@@ -25,6 +25,14 @@ services:
     depends_on:
       - db
 
-#docker-compose up -d
-#docker-compose down
+#sudo docker-compose run web django-admin startproject config .
+#edit settings.py allowed_hosts and database.
+
+    #sudo docker-compose run web python manage.py migrate
+    #sudo docker-compose run web python manage.py createsuperuser admin admin
+
+
+
+#docker-compose up -d *
+#docker-compose down  *
 #docker-compose build

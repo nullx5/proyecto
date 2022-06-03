@@ -61,7 +61,7 @@ sudo a2enmod rewrite
 sudo systemctl restart apache2
 
 ## CONFIGURAR JOOMLA | INTERFAZ WEB
-http://192.168.33.9/joomla
+http://192.168.33.31/joomla
 
 ### Nombre de su sitio Joomla
 `Blog de Prueba`
