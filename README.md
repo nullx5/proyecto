@@ -12,6 +12,3 @@
 
 > ### `Lab03`
 >> - Django Web Framework and Database Postgresql over Network `Vagrant & docker-compose`.
-
-> ### `Lab04`
->> - Aapanel powerful control-panel for linux server over `Vagrant & docker`.
