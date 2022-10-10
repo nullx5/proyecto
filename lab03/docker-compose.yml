@@ -34,5 +34,6 @@ services:
 
 
 #docker-compose up -d *
+  # http://192.168.33.33:8000
 #docker-compose down  *
 #docker-compose build
