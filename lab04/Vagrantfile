@@ -1,45 +1,22 @@
+# Copyright (c) 2014-2022 Bjoern Kimminich & the OWASP Juice Shop contributors.
+# SPDX-License-Identifier: MIT
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
+  config.vm.box = "generic/ubuntu2110"
+  config.vm.hostname = "ubuntu"
 
-  # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "debian/bullseye64"
-  config.vm.hostname = "debian4"
+   config.vm.provider "virtualbox" do |vb|
 
-  #config.vm.network "forwarded_port", guest: 80, host: 8080
-
-  config.vm.network "private_network", ip: "192.168.33.34"
-
-  #config.vm.network "public_network", ip: "192.168.100.34"
-
-  #Windows
-  config.vm.synced_folder ".", "/home/vagrant/docker"
-
-  #Linux
-  #config.vm.synced_folder ".", "/home/vagrant/docker"
-  
-  config.vm.provider "virtualbox" do |vb|
-
-    vb.name = "VM-debian4"  
+    vb.name = "VM-ubuntu"  
     vb.memory = "1024"
     vb.cpus = 2
 
   end
 
-  # Enable provisioning with a shell script. Additional provisioners such as
-  # Ansible, Chef, Docker, Puppet and Salt are also available.
-  config.vm.provision "shell", inline: <<-SHELL
-    sudo apt update
-    sudo apt upgrade -y
-    sudo apt install tree neofetch -y
-  SHELL
-
-  config.vm.provision :docker
-
-  #docker pull aapanel/aapanel
-
-  #docker run -d -p 8886:8888 -p 3333:3333 -p 443:443 -p 80:80 -p 889:888 -v ~/website_data:/www/wwwroot -v ~/mysql_data:/www/server/data -v ~/vhost:/www/server/panel/vhost aapanel/aapanel:lib
-      #http://192.168.33.34:8886/aapanel
-      #Default username:aapanel
-      #Default password:aapanel123
-
+  config.vm.network "private_network", ip: "192.168.33.34"
+  config.vm.provision "file", source: "./default.conf", destination: "/tmp/juice-shop/default.conf"
+  config.vm.provision :shell, path: "bootstrap.sh"
 end

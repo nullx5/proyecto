@@ -12,3 +12,6 @@
 
 > ### `Lab03`
 >> - Django Web Framework and Database Postgresql over Network `Vagrant & docker-compose`.
+
+> ### `Lab04`
+>> - OWASP Juice Shop: Insecure web application over Network `Vagrant & Docker`.
