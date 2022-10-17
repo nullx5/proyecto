@@ -17,7 +17,7 @@ services:
     volumes:
       - .:/code
     ports:
-      - "8000:8000"
+      - "80:8000"
     environment:
       - POSTGRES_NAME=postgres
       - POSTGRES_USER=postgres
@@ -34,6 +34,6 @@ services:
 
 
 #docker-compose up -d *
-  # http://192.168.33.33:8000
+  # http://192.168.33.33
 #docker-compose down  *
 #docker-compose build
