@@ -3,6 +3,7 @@
 - Virtualbox 6.1.26
 - Vagrant 2.2.19
 - Docker 20.10.16
+![Virtualbox](https://img.shields.io/badge/Virtualbox-v6.1.26-green)
 
 > ### `Lab01`
 >> - Simple Stack LAMP over `Vagrant`.
