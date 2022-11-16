@@ -9,7 +9,7 @@
 - [![Vagrant](https://img.shields.io/badge/Vagrant%20-v2.2.19-green)](https://www.vagrantup.com/downloads)
 - [![Docker](https://img.shields.io/badge/Docker-v20.10.16-green)](https://www.docker.com/)
 
-###Usage:
+### Usage:
 
 ```bash
 git clone https://github.com/nullx5/proyecto.git
