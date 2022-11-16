@@ -9,6 +9,12 @@
 - [![Vagrant](https://img.shields.io/badge/Vagrant%20-v2.2.19-green)](https://www.vagrantup.com/downloads)
 - [![Docker](https://img.shields.io/badge/Docker-v20.10.16-green)](https://www.docker.com/)
 
+###Usage:
+
+```bash
+git clone https://github.com/nullx5/proyecto.git
+```
+
 > ### `Lab01`
 - Simple Stack LAMP over `Vagrant`.
 <img src="https://i.imgur.com/1y6zDiz.png" alt="lab01" style="width:400px;"/>
