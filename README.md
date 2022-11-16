@@ -15,6 +15,12 @@
 git clone https://github.com/nullx5/proyecto.git
 ```
 
+Muevase al directorio del laboratorio que desea probar e inicie la maquina.
+
+```bash
+vagrant up
+```
+
 > ### `Lab01`
 - Simple Stack LAMP over `Vagrant`.
 <img src="https://i.imgur.com/1y6zDiz.png" alt="lab01" style="width:400px;"/>
