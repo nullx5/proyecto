@@ -4,10 +4,10 @@
 ![Linux](https://img.shields.io/badge/-Linux-red?logo=linux) ![Windows](https://img.shields.io/badge/-Windows-blue?logo=windows) ![OSX](https://img.shields.io/badge/-OSX-black?logo=apple)
 
 ### Dependencias:
-- [![Git](https://img.shields.io/badge/Git-latest-green)](https://git-scm.com/downloads)
-- [![Virtualbox](https://img.shields.io/badge/Virtualbox-v6.1.26-green)](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1)
-- [![Vagrant](https://img.shields.io/badge/Vagrant%20-v2.2.19-green)](https://www.vagrantup.com/downloads)
-- [![Docker](https://img.shields.io/badge/Docker-v20.10.16-green)](https://www.docker.com/)
+- ![Git](https://img.shields.io/badge/Git-latest-green?logo=git)
+- ![Git](https://img.shields.io/badge/Virtualbox-v6.1.26-green?logo=virtualbox)
+- ![Git](https://img.shields.io/badge/Vagrant-v2.2.19-green?logo=vagrant)
+- ![Git](https://img.shields.io/badge/Docker-v20.10.16-green?logo=docker)
 
 ### Usage:
 
