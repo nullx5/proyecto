@@ -35,9 +35,11 @@ FLUSH PRIVILEGES;
 `sudo unzip Joomla_4.0.4-Stable-Full_Package.zip -d /var/www/html/joomla`
 
 ## CAMBIAR USUARIO Y GRUPO PROPIETARIO | CAMBIAR PERMISOS
+`
 sudo chown -R www-data:www-data /var/www/html/joomla
 sudo chmod -R 755 /var/www/html/joomla
 sudo ls -l
+`
 
 ## CREAR VIRTUALHOST
 sudo vi /etc/apache2/sites-available/joomla.conf
