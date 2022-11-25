@@ -18,10 +18,12 @@ Remove test database and access to it? [Y/N] Y
 Reload privilege tables now? [Y/N] Y
 
 ## CREAR USUARIO Y BASE DE DATOS Y ASIGNAR PRIVILEGIOS
+`
 CREATE DATABASE joomla_db;
 CREATE USER "joomla_user"@"localhost" IDENTIFIED BY "joomla123";
 GRANT ALL PRIVILEGES ON joomla_db.* TO "joomla_user"@"localhost";
 FLUSH PRIVILEGES;
+`
 
 ## CREAR DIRECTORIO PARA JOMLA
 `sudo mkdir /var/www/html/joomla`
