@@ -4,7 +4,7 @@
 `sudo apt install apache2 mariadb-server php7.4 libapache2-mod-php7.4 php-mysql php7.4-cli unzip -y`
 
 ## INSTALAR EXTENSIONES PHP QUE USA JOOMLA
-`sudo apt install openssl php7.4-xml php7.4-zip php7.4-mbstring php7.4-json php-imagick php-common php7.4-curl php7.4-gd php7.4-imap php7.4-intl php7.4-ldap php-ssh2 php7.4-sqlite3 -y`
+`sudo apt install openssl php7.4-xml php7.4-zip php7.4-mbstring php7.4-json php-imagick php-common php7.4-curl php7.4-gd php7.4-imap php7.4-intl php7.4-ldap php-ssh2 php7.4-sqlite3 php-gd -y`
 
 ## ASEGURAR INSTALACION MYSQL
 `sudo mysql_secure_installation` 
