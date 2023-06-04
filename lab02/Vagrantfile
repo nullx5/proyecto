@@ -40,6 +40,6 @@ Vagrant.configure("2") do |config|
   
   #docker run -d --name mysqlwp -e MYSQL_ROOT_PASSWORD=wordpresspwd -e MYSQL_DATABASE=wordpress_db -e MYSQL_USER=wordpress_user -e MYSQL_PASSWORD=wordpress123 mysql:8.0
   #docker run -d --name wordpress --link mysqlwp:mysql -p 80:80 -e WORDPRESS_DB_NAME=wordpress_db -e WORDPRESS_DB_USER=wordpress_user -e WORDPRESS_DB_PASSWORD=wordpress123 wordpress:5.8.2
-
+  #sudo docker exec -it 4ae700062f63 mysql -u wordpress_user -p wordpress123
   #sudo docker exec -it contenedor-id bash
 end
