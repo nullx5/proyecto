@@ -9,7 +9,8 @@
 - ![Git](https://img.shields.io/badge/Vagrant-v2.2.19-green?logo=vagrant)
 - ![Git](https://img.shields.io/badge/Docker-v20.10.16-green?logo=docker)
 
-### Usage:
+### Modo de uso:
+Clone el reposoitorio.
 
 ```bash
 git clone https://github.com/nullx5/proyecto.git
