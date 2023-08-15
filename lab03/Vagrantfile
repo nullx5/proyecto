@@ -30,7 +30,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     sudo apt update
     sudo apt upgrade -y
-    sudo apt install tree neofetch docker-compose -y
+    sudo apt install tree neofetch docker.io docker-compose -y
   SHELL
 
   config.vm.provision :docker
