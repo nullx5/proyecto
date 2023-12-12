@@ -21,6 +21,11 @@ Muevase al directorio del laboratorio que desea probar e inicie la maquina.
 ```bash
 vagrant up
 ```
+Ingrese a la maquina.
+
+```bash
+vagrant ssh
+```
 
 > ### `Lab01`
 - Simple Stack LAMP over `Vagrant`.
