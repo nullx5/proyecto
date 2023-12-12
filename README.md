@@ -27,6 +27,12 @@ Ingrese a la maquina.
 vagrant ssh
 ```
 
+Apagar la maquina.
+
+```bash
+vagrant halt
+```
+
 > ### `Lab01`
 - Simple Stack LAMP over `Vagrant`.
 <img src="https://i.imgur.com/1y6zDiz.png" alt="lab01" style="width:400px;"/>
