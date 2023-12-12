@@ -34,21 +34,21 @@ vagrant halt
 ```
 
 > ### `Lab01`
-- Simple Stack LAMP over `Vagrant`.
+- Simple Pila LAMP sobre `Vagrant`.
 <img src="https://i.imgur.com/1y6zDiz.png" alt="lab01" style="width:400px;"/>
 
 > ### `Lab02`
-- CMS Wordpress and Database Mysql over Network `Vagrant & Docker`.
+- CMS Wordpress y Base de Datos Mysql Sobre Red `Docker`.
 <img src="https://i.imgur.com/6Mxuzhy.png" alt="lab02" style="width:400px;"/>
 
 > ### `Lab03`
-- Django Web Framework and Database Postgresql over Network `Vagrant & docker-compose`.
+- Django Framework Web y Base de Datos Postgresql sobre Red `docker-compose`.
 <img src="https://i.imgur.com/gSt3BbW.png" alt="lab03" style="width:400px;"/>
 
 > ### `Lab04`
-- OWASP Juice Shop: Insecure web application over Network `Vagrant & Docker`.
+- OWASP Juice Shop: Insecure web application SObre Red `Docker`.
 <img src="https://i.imgur.com/bXy9d5j.png" alt="lab04" style="width:400px;"/>
 
 > ### `Lab05`
-- PhpIPAM – Open source IP address management `Vagrant & Docker`.
+- PhpIPAM – Open source IP address management `Docker`.
 <img src="https://i.imgur.com/os28UjY.png" alt="lab04" style="width:400px;"/>
