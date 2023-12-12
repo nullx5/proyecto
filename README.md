@@ -46,7 +46,7 @@ vagrant halt
 <img src="https://i.imgur.com/gSt3BbW.png" alt="lab03" style="width:400px;"/>
 
 > ### `Lab04`
-- OWASP Juice Shop: Insecure web application SObre Red `Docker`.
+- OWASP Juice Shop: Insecure web application Sobre Red `Docker`.
 <img src="https://i.imgur.com/bXy9d5j.png" alt="lab04" style="width:400px;"/>
 
 > ### `Lab05`
