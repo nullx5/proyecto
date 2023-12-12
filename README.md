@@ -7,7 +7,7 @@
 - ![Git](https://img.shields.io/badge/Git-latest-green?logo=git)
 - ![Git](https://img.shields.io/badge/Virtualbox-v6.1.26-green?logo=virtualbox)
 - ![Git](https://img.shields.io/badge/Vagrant-v2.2.19-green?logo=vagrant)
-- ![Git](https://img.shields.io/badge/Docker-v20.10.16-green?logo=docker)
+
 
 ### Modo de uso:
 Clone el reposoitorio.
