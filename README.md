@@ -52,3 +52,29 @@ vagrant halt
 > ### `Lab05`
 - PhpIPAM – Open source IP address management `Docker`.
 <img src="https://i.imgur.com/os28UjY.png" alt="lab04" style="width:400px;"/>
+
+### Solución de Problemas Linux:
+
+Si no reconoce la configuración de red, crear el archivo networks.conf con el segmento de red asignado en los laboratorios.
+
+```
+sudo nvim /etc/vbox/networks.conf
+       * 192.168.33.0/24
+```
+
+Si da error `"The vboxdrv kernel module is not loaded."`
+
+```
+Desinstalar todos los paquetes libvirt
+sudo apt install --reinstall linux-headers-$(uname -r) dkms
+reboot
+sudo modprobe vboxdrv
+sudo lsmod |grep vboxdrv
+sudo modinfo vboxdrv
+sudo /sbin/vboxconfig
+sudo locate vboxdrv
+
+sudo vagrant up
+```
+
+[error modprove vboxdrv](https://www.youtube.com/watch?v=kqS8ss-OQzI)
