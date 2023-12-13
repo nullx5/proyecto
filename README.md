@@ -1,5 +1,6 @@
 # USO DE HERRAMIENTAS DE VIRTUALIZACIÓN Y CONTENEDORES DOCKER, PARA LA CREACIÓN DE ENTORNOS DE DESARROLLO PORTABLES, CONSISTENTES Y REPRODUCIBLES.
 [Sustentacion Proyecto Aplicado](https://www.youtube.com/watch?v=SSEYC4Vh-mA)
+[Presentación](https://drive.google.com/file/d/10eiwWyhOTNXFOU4qXh9CvCAx2_DSC_au/view)
 
 ### Multiplataforma: 
 ![Linux](https://img.shields.io/badge/-Linux-red?logo=linux) ![Windows](https://img.shields.io/badge/-Windows-blue?logo=windows) ![OSX](https://img.shields.io/badge/-OSX-black?logo=apple)
