@@ -56,7 +56,7 @@ vagrant halt
 
 ### Solución de Problemas Linux:
 
-Si no reconoce la configuración de red, crear el `archivo networks.conf` con el segmento de red asignado en los laboratorios.
+Si no reconoce la configuración de red, crear el archivo `networks.conf` con el segmento de red asignado en los laboratorios.
 
 ```
 sudo nvim /etc/vbox/networks.conf
