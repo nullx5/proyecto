@@ -57,6 +57,7 @@ vagrant halt
 > ### `Lab05`
 - PhpIPAM – Open source IP address management `Docker`.
 <img src="https://i.imgur.com/os28UjY.png" alt="lab04" style="width:400px;"/>
+
 > [!NOTE]
 
 > Solución de Problemas Linux:
