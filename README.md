@@ -57,8 +57,8 @@ vagrant halt
 > ### `Lab05`
 - PhpIPAM – Open source IP address management `Docker`.
 <img src="https://i.imgur.com/os28UjY.png" alt="lab04" style="width:400px;"/>
-
-### Solución de Problemas Linux:
+> [!NOTE]
+> Solución de Problemas Linux:
 
 Si no reconoce la configuración de red, crear el archivo `networks.conf` con el segmento de red asignado en los laboratorios.
 
