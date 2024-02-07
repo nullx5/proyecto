@@ -42,4 +42,12 @@ Vagrant.configure("2") do |config|
   #sudo docker run -d --name wordpress --link mysqlwp:mysql -p 80:80 -e WORDPRESS_DB_NAME=wordpress_db -e WORDPRESS_DB_USER=wordpress_user -e WORDPRESS_DB_PASSWORD=wordpress123 wordpress:5.8.2
   #sudo docker exec -it 4ae700062f63 mysql -u wordpress_user -p wordpress123
   #sudo docker exec -it contenedor-id bash
+
+  #sudo docker pull mariadb
+  #sudo docker pull wordpress
+
+  #sudo docker run -d --name mi-mariadb -e MARIADB_USER=user -e MARIADB_PASSWORD=pass123 -e MARIADB_DATABASE=wordpress -e MARIADB_ROOT_PASSWORD=pass123  mariadb
+  #sudo docker run -d --name mi-wordpress --link mi-mariadb:mysql -p 80:80 -e WORDPRESS_DB_NAME=wordpress -e WORDPRESS_DB_USER=user -e WORDPRESS_DB_PASSWORD=pass123 wordpress
+
+
 end
