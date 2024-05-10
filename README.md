@@ -70,6 +70,7 @@ sudo nvim /etc/vbox/networks.conf
 Si da error `"The vboxdrv kernel module is not loaded."`
 
 ```
+Desabilitar secure boot en la BIOS
 Desinstalar todos los paquetes libvirt
 sudo apt install --reinstall linux-headers-$(uname -r) dkms
 reboot
