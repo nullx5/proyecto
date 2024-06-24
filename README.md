@@ -67,7 +67,7 @@ sudo nvim /etc/vbox/networks.conf
        * 192.168.33.0/24
 ```
 
-Si da error `"The  kernel module is not loaded."`
+Si da error `"The vboxdrv kernel module is not loaded."`
 Falta Oracle VM VirtualBox Support Driver `vboxdrv`
 ```
 Desabilitar secure boot en la BIOS
