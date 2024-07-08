@@ -21,6 +21,8 @@ Clone el reposoitorio.
 git clone https://github.com/nullx5/proyecto.git
 ```
 
+![https://i.imgur.com/zv9Q4Fh.png](https://i.imgur.com/zv9Q4Fh.png)
+
 Muevase al directorio del laboratorio que desea probar e inicie la maquina.
 
 ```bash
