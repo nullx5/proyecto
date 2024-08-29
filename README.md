@@ -88,7 +88,8 @@ sudo vagrant up
 [error modprove vboxdrv](https://www.youtube.com/watch?v=kqS8ss-OQzI)
 
 Referencias:
-- https://www.youtube.com/watch?v=CzMo4hJvY0g
+- [docker](https://www.youtube.com/watch?v=CzMo4hJvY0g)
+- [CI/CD Github actions](https://www.youtube.com/watch?v=qM6ZkufsHGc)
 - https://bootcamp.295devops.com/
 - https://labs.iximiuz.com/playgrounds
 - https://github.com/jesseduffield/lazydocker
