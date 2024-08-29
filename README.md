@@ -90,3 +90,4 @@ sudo vagrant up
 Referencias:
 - https://www.youtube.com/watch?v=CzMo4hJvY0g 
 - https://labs.iximiuz.com/playgrounds
+- https://github.com/jesseduffield/lazydocker
