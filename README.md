@@ -86,3 +86,7 @@ sudo vagrant up
 ```
 
 [error modprove vboxdrv](https://www.youtube.com/watch?v=kqS8ss-OQzI)
+
+Referencias:
+- https://www.youtube.com/watch?v=CzMo4hJvY0g 
+- https://labs.iximiuz.com/playgrounds
