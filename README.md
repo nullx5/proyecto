@@ -62,6 +62,9 @@ vagrant halt
 
 ### Crear snapshot en Vagrant:
 
+> [!TIP]
+> Recuerda que necesitarás tener la máquina virtual en estado "apagado" si quieres hacer algunos tipos de snapshots.
+
 ```
 vagrant snapshot save nombre_del_snapshot
 
@@ -72,6 +75,8 @@ vagrant snapshot restore nombre_del_snapshot
 vagrant snapshot delete  nombre_del_snapshot
 
 ```
+
+
 
 ### Solución de Problemas en Linux:
 
