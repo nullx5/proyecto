@@ -93,7 +93,7 @@ Falta Oracle VM VirtualBox Support Driver `vboxdrv`
 Desabilitar secure boot en la BIOS
 Desinstalar todos los paquetes libvirt
 sudo apt install --reinstall linux-headers-$(uname -r) dkms
-reboot
+sudo init 6
 sudo modprobe vboxdrv
 sudo lsmod |grep vboxdrv
 sudo modinfo vboxdrv
