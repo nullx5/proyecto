@@ -62,7 +62,7 @@ vagrant halt
 
 ### Crear snapshot en Vagrant:
 
-> [!TIP]
+> [!NOTE]
 > Recuerda que necesitarás tener la máquina virtual en estado "apagado" si quieres hacer algunos tipos de snapshots.
 
 ```
@@ -79,15 +79,15 @@ vagrant snapshot delete  nombre_del_snapshot
 
 
 ### Solución de Problemas en Linux:
-
-Si no reconoce la configuración de red, crear el archivo `networks.conf` con el segmento de red asignado en los laboratorios.
+> [!WARNING]
+> Si no reconoce la configuración de red, crear el archivo `networks.conf` con el segmento de red asignado en los laboratorios.
 
 ```
 sudo nvim /etc/vbox/networks.conf
        * 192.168.33.0/24
 ```
-
-Si da error `"The vboxdrv kernel module is not loaded."`
+> [!CAUTION] 
+> Si da error `"The vboxdrv kernel module is not loaded."`
 Falta Oracle VM VirtualBox Support Driver `vboxdrv`
 ```
 Desabilitar secure boot en la BIOS
