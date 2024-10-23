@@ -69,6 +69,8 @@ vagrant snapshot list
 
 vagrant snapshot restore nombre_del_snapshot
 
+vagrant snapshot delete  nombre_del_snapshot
+
 ```
 
 ### Solución de Problemas en Linux:
