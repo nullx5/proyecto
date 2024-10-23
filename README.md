@@ -60,6 +60,17 @@ vagrant halt
 - PhpIPAM – Open source IP address management `Docker`.
 <img src="https://i.imgur.com/os28UjY.png" alt="lab04" style="width:400px;"/>
 
+### Crear snapshot en Vagrant:
+
+```
+vagrant snapshot save nombre_del_snapshot
+
+vagrant snapshot list
+
+vagrant snapshot restore nombre_del_snapshot
+
+```
+
 ### Solución de Problemas en Linux:
 
 Si no reconoce la configuración de red, crear el archivo `networks.conf` con el segmento de red asignado en los laboratorios.
