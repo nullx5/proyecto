@@ -95,6 +95,7 @@ Desinstalar todos los paquetes libvirt
 sudo apt install --reinstall linux-headers-$(uname -r) dkms
 sudo init 6
 sudo modprobe vboxdrv
+sudo apt install --reinstall virtualbox-dkms
 sudo lsmod |grep vboxdrv
 sudo modinfo vboxdrv
 sudo /sbin/vboxconfig
