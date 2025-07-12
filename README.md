@@ -60,6 +60,11 @@ vagrant halt
 - PhpIPAM – Open source IP address management `Docker`.
 <img src="https://i.imgur.com/os28UjY.png" alt="lab04" style="width:400px;"/>
 
+### Paquete docker compose
+> [!NOTE]
+> El paquete `docker-compose` ha quedado obsoleto, usar `docker-compose-v2`
+> Usar `sudo docker compose up -d` en lugar de `sudo docker-compose up -d`
+
 ### Crear snapshot en Vagrant:
 
 > [!NOTE]
